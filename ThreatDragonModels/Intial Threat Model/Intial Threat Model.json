@@ -1,0 +1,26 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Intial Threat Model",
+    "owner": "Sarah Hosne Jahan",
+    "description": "A web-based photo-sharing application that allows any user to upload images and captions without authentication. The application stores image files in a local uploads folder and metadata in a SQLite database. This version has no login, no session tracking, and no access control, exposing it to spoofing, DoS, and injection threats.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
